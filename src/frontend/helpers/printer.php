@@ -16,3 +16,5 @@ function printTableContent(array $plato) : bool {
 
     return true;
 }
+
+?>

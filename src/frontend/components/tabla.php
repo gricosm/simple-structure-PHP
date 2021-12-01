@@ -7,7 +7,6 @@
 
         <tbody class="tbody">
             <?php
-                include_once 'data.php';
                 include_once 'helpers/printer.php';
                 $max = count($platos);
                 for ($i = 0; $i < $max; $i++)
