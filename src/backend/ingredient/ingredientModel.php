@@ -26,5 +26,4 @@ function getIngredientesByDish() : array {
     return $ingredientsByDish;
 }
 
-
 ?>
