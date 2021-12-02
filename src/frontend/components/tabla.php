@@ -7,8 +7,15 @@
 
         <tbody class="tbody">
             <?php
-                include_once 'data.php';
                 include_once 'helpers/printer.php';
+                require_once '../../backend/dish/dishModel.php';
+
+                $platos = getAllDishes();
+
+                print_r('<pre>');
+                var_dump($platos);
+                die();
+
                 $max = count($platos);
                 for ($i = 0; $i < $max; $i++)
                 {
