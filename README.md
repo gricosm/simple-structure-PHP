@@ -1,4 +1,4 @@
-###Simple Structure PHP###
+### Simple Structure PHP
 
 Repositorio creado con el fin de tener "a mano" la estructura básica de una app en PHP.
 Siempre creado de manera similar al estándar que nos podemos encontrar desplegado en una aplicación real.
